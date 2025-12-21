@@ -1,6 +1,6 @@
 # Cookie API
 [![](https://img.shields.io/pypi/v/cookie-api.svg?style=for-the-badge&logo=pypi&color=yellow&logoColor=white)](https://pypi.org/project/cookie-api/)
-[![](https://img.shields.io/pypi/l/cookie-api?style=for-the-badge&color=5865F2)](https://github.com/tibue99/cookie-api/blob/main/LICENSE)
+[![](https://img.shields.io/pypi/l/cookie-api?style=for-the-badge&color=5865F2)](https://github.com/CookieAppTeam/api/blob/main/LICENSE)
 [![](https://img.shields.io/readthedocs/cookie-api?style=for-the-badge)](https://cookie-api.readthedocs.io/)
 [![](https://img.shields.io/badge/Cookie-Website-orange?style=for-the-badge)](https://cookieapp.me/)
 

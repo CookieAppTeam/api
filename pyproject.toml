@@ -26,7 +26,7 @@ version = {attr = "cookie.__version__"}
 dependencies = {file = "requirements/requirements.txt"}
 
 [project.urls]
-GitHub = "https://github.com/tibue99/cookie-api"
+GitHub = "https://github.com/CookieAppTeam/api"
 Cookie = "https://cookieapp.me"
 Documentation = "https://cookie-api.readthedocs.io"
 OpenAPI = "https://api.cookieapp.me/docs"
