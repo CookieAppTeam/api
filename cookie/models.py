@@ -3,9 +3,9 @@
 
 from __future__ import annotations
 
-from datetime import date, datetime
+from datetime import date
 
-from pydantic import BaseModel, Field
+from pydantic import AwareDatetime, BaseModel, Field
 
 from ._internal import BaseChart
 
@@ -17,7 +17,7 @@ class Chart(BaseChart):
 
 class Daily(BaseModel):
     ready: bool = Field(..., title="Ready")
-    next: datetime = Field(..., title="Next")
+    next: AwareDatetime = Field(..., title="Next")
     streak: int = Field(..., title="Streak")
     max_streak: int = Field(..., title="Max Streak")
 
@@ -50,7 +50,7 @@ class MemberActivity(BaseModel):
 
 class Oven(BaseModel):
     ready: bool = Field(..., title="Ready")
-    next: datetime = Field(..., title="Next")
+    next: AwareDatetime = Field(..., title="Next")
 
 
 class Steals(BaseModel):
@@ -89,13 +89,13 @@ class VoiceLevel(BaseModel):
 
 
 class Work(BaseModel):
-    career: str = Field(..., title="Career")
+    career: str | None = Field(..., title="Career")
     total_shifts: int = Field(..., title="Total Shifts")
     current_shifts: int = Field(..., title="Current Shifts")
-    job: str = Field(..., title="Job")
+    job: str | None = Field(..., title="Job")
     job_level: int = Field(..., title="Job Level")
     job_ready: bool = Field(..., title="Job Ready")
-    next_shift: datetime = Field(..., title="Next Shift")
+    next_shift: AwareDatetime = Field(..., title="Next Shift")
 
 
 class HTTPValidationError(BaseModel):
