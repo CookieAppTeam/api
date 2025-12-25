@@ -16,7 +16,7 @@ generate(
     use_union_operator=True,
     use_double_quotes=True,
     use_standard_collections=True,
-    target_python_version=PythonVersion.PY_39,
+    target_python_version=PythonVersion.PY_310,
     custom_formatters=["formatter"],
     output=Path("cookie/models.py"),
     output_model_type=DataModelType.PydanticV2BaseModel,
