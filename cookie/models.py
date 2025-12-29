@@ -89,10 +89,10 @@ class VoiceLevel(BaseModel):
 
 
 class Work(BaseModel):
-    career: str = Field(..., title="Career")
+    career: str | None = Field(..., title="Career")
     total_shifts: int = Field(..., title="Total Shifts")
     current_shifts: int = Field(..., title="Current Shifts")
-    job: str = Field(..., title="Job")
+    job: str | None = Field(..., title="Job")
     job_level: int = Field(..., title="Job Level")
     job_ready: bool = Field(..., title="Job Ready")
     next_shift: datetime = Field(..., title="Next Shift")

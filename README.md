@@ -7,7 +7,7 @@
 Official wrapper for the [Cookie](https://cookieapp.me) API.
 
 ## ⚙️ Installation
-Python 3.9 or higher is required
+Python 3.10 or higher is required
 ```
 pip install cookie-api
 ```

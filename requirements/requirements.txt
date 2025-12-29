@@ -1,4 +1,3 @@
 httpx
 pydantic
 python-dotenv
-eval_type_backport; python_version<='3.9'
