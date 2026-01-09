@@ -1,6 +1,7 @@
 name: Feature Request
 description: Request a feature that you would like to see implemented in the project.
 labels: [enhancement]
+type: Feature
 
 body:
 - type: markdown

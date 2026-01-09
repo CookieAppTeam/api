@@ -1,6 +1,7 @@
 name: Bug Report
 description: Report a bug that you found
 labels: [bug]
+type: Bug
 
 body:
 - type: markdown
